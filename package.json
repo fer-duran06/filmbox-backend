@@ -1,0 +1,24 @@
+{
+  "name": "filmbox-backend",
+  "version": "1.0.0",
+  "description": "FilmBox Backend - Proxy/API para TMDB con persistencia en PostgreSQL",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "^14.2.29",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.24",
+    "@types/pg": "^8.11.11",
+    "@types/react": "^18.3.18",
+    "typescript": "^5.7.3"
+  }
+}

@@ -1,0 +1,5 @@
+# Variables de entorno con secretos
+.env
+
+# Volúmenes de datos locales
+pgdata/
